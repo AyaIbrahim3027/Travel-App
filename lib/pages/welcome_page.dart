@@ -48,15 +48,15 @@ class _WelcomePageState extends State<WelcomePage> {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        AppLargeText(text: 'Trips'),
-                        AppText(
+                        const AppLargeText(text: 'Trips'),
+                        const AppText(
                           text: 'Mountain',
                           size: 30,
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 13,
                         ),
-                        Container(
+                        SizedBox(
                           width: 250,
                           child: AppText(
                             text:
@@ -65,10 +65,10 @@ class _WelcomePageState extends State<WelcomePage> {
                             size: 15,
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 30,
                         ),
-                        ResponsiveButton(
+                        const ResponsiveButton(
                           width: 80,
                         ),
                       ],
