@@ -219,7 +219,7 @@ class _DetailsPageState extends State<DetailsPage> {
                       icon: Icons.favorite_border,
                     ),
                     const SizedBox(width: 20,),
-                    ResponsiveButton(
+                    const ResponsiveButton(
                       isResponsive: true,
                     ),
                   ],
